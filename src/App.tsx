@@ -20,7 +20,7 @@ I18n.setLanguage("nl");
 
 const App = () => {
   return (
-    <AmplifyProvider theme={theme} socialProviders={["google"]}>
+    <AmplifyProvider theme={theme}>
       <Authenticator>
         {({ signOut, user }) => (
           <Flex
