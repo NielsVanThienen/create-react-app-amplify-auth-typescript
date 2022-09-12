@@ -15,8 +15,8 @@ import "@aws-amplify/ui-react/styles.css";
 import theme from "./theme";
 import logo from "./logo.svg";
 
-Amplify.configure(aws_exports);
 I18n.setLanguage("nl");
+Amplify.configure(aws_exports);
 
 const App = () => {
   return (
