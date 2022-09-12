@@ -19,7 +19,7 @@ Amplify.configure(aws_exports);
 
 const App = () => {
   return (
-    <AmplifyProvider theme={theme}>
+    <AmplifyProvider theme={theme} socialProviders={["google"]}>
       <Authenticator>
         {({ signOut, user }) => (
           <Flex
