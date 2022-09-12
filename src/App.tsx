@@ -1,6 +1,5 @@
 import React from "react";
 import { Amplify, I18n } from "aws-amplify";
-import AmplifyI18n from "amplify-i18n";
 import {
   AmplifyProvider,
   Authenticator,
@@ -17,8 +16,7 @@ import theme from "./theme";
 import logo from "./logo.svg";
 
 Amplify.configure(aws_exports);
-AmplifyI18n.configure();
-I18n.setLanguage("fr");
+I18n.setLanguage("nl");
 
 const App = () => {
   return (
